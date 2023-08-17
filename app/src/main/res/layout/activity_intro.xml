@@ -14,7 +14,6 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:src="@drawable/login"
                 android:layout_width="match_parent"
                 android:scaleType="fitXY"
                 android:layout_height="match_parent"/>
@@ -35,6 +34,28 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/background_radius"
                     android:text="로그인"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/googleBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background_radius"
+                    android:backgroundTint="@color/white"
+                    android:text="구글 로그인"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kakaoBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background_radius"
+                    android:backgroundTint="@color/white"
+                    android:text="카카오 로그인"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 

@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1060153228167",
+    "firebase_url": "https://shoppingmall-e18b2-default-rtdb.firebaseio.com",
     "project_id": "shoppingmall-e18b2",
     "storage_bucket": "shoppingmall-e18b2.appspot.com"
   },
@@ -14,7 +15,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "1060153228167-09uvkfaqdl2t6uvdjpe5mu8snulqf0ut.apps.googleusercontent.com",
+          "client_id": "1060153228167-6prgsg4sqchfm5lebg6ctmev3pqh1an3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoppingmall_app",
+            "certificate_hash": "4112ede5ed9155b0c98787c258b21e2fe8a27e77"
+          }
+        },
+        {
+          "client_id": "1060153228167-0b745uuh436lg6va9lhkjj4rgmpstns0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],

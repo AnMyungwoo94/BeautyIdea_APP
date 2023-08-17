@@ -42,8 +42,11 @@ class BoardListRvAdapter(val boardList : MutableList<BoardModel>) : BaseAdapter(
 
         title!!.text = boardList[position].title
         content!!.text = boardList[position].content
+        if(content!!.text.length > 20){
+            val preview = content!!.text.substring(0,20) + "..."
+            content!!.text = preview
+        }
         time!!.text = boardList[position].time
-
         return view!!
     }
 
